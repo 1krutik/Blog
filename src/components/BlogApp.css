@@ -1,0 +1,129 @@
+/* Container styling for the blog app */
+.blog-app {
+  width: 80%; /* Increase width for a more prominent layout */
+  max-width: 800px;
+  margin: 40px auto; /* Increase margin for better spacing */
+  padding: 20px;
+  background-color: #f8f9fa; /* Light background color */
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); /* Soft shadow for card effect */
+  border-radius: 8px;
+}
+
+/* Styling for the form inputs */
+.post-form input,
+.post-form textarea {
+  width: 100%;
+  margin: 15px 0;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 16px;
+  font-family: 'Arial', sans-serif;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+/* Button styling for form actions */
+.post-form button {
+  padding: 12px 30px;
+  background-color: #007bff; /* Change button color to primary blue */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out; /* Smooth transition */
+}
+
+/* Button hover effect */
+.post-form button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Styling for individual blog posts */
+.blog-post {
+  border: 1px solid #e3e3e3;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #ffffff;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease-in-out; /* Smooth shadow transition */
+}
+
+/* Box shadow effect on hover */
+.blog-post:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15); /* Increase shadow on hover */
+}
+
+/* Styling for the blog post title */
+.blog-post h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/* Styling for the blog post date */
+.blog-post small {
+  display: block;
+  color: #777;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+/* Styling for the buttons within a blog post */
+.blog-post button {
+  margin: 5px;
+  padding: 8px 20px;
+  background-color: #28a745; /* Success color */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* Separate styling for delete button */
+.blog-post button.delete {
+  background-color: #dc3545; /* Danger color */
+}
+
+/* Button hover effects */
+.blog-post button:hover {
+  background-color: #218838;
+}
+.blog-post button.delete:hover {
+  background-color: #c82333;
+}
+
+/* Image styling within a blog post */
+.blog-post-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-top: 10px;
+  transition: transform 0.3s ease-in-out; /* Smooth zoom effect */
+}
+
+/* Image zoom effect on hover */
+.blog-post-image:hover {
+  transform: scale(1.05); /* Slight zoom effect */
+}
+
+/* Center-align text in the app */
+.App {
+  text-align: center;
+}
+
+/* Floating Action Button (FAB) styling */
+.fab {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff; /* Primary blue color */
+  color: white;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s ease-in-out;
+}
+
+/* FAB hover effect */
+.fab:hover {
+  background-color: #0056b3;
+}
